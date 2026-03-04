@@ -1,0 +1,154 @@
+* {
+  font-family: "inter" monospace, sans-serif;
+}
+body {
+  background-color: #f8f8f8;
+  background-size: cover;
+  width: auto;
+  margin: 5;
+  padding: 0;
+  border: 0;
+}
+.header {
+  background-color: #ffffff;
+  width: auto;
+  height: 153px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-items img {
+  margin: 50px;
+}
+button {
+  background-color: #008653;
+  color: #ffff;
+  width: 200px;
+  height: 64px;
+  margin: 43px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 400;
+  font-size: medium;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+}
+main {
+  width: 846px;
+  margin: auto;
+}
+.main-steps {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 847px;
+}
+.grey {
+  background-color: #dce5df;
+  width: 847px;
+  height: 15px;
+  border-radius: 64px;
+}
+.steps {
+  width: 847px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.steps p {
+  font-weight: bold;
+  font-weight: 700;
+}
+.green {
+  background-color: #008653;
+  width: 257px;
+  height: 15px;
+  border-radius: 64px;
+}
+.main-texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+  margin-bottom: 50px;
+}
+
+.main-box {
+  width: 846px;
+  height: 700px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 10px 50px;
+}
+.box-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 413px;
+  height: 243px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 16px;
+  padding: 36px;
+  margin: 20px;
+}
+.green-box {
+  background-color: #eaf6ed;
+  border: 1px solid #04a166;
+}
+
+.main-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-footer button {
+  width: 846px;
+  height: 64px;
+}
+.main-footer img {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+}
+.footer-items {
+  display: flex;
+}
+a {
+  text-decoration: none;
+}
+.link {
+  margin: 10px;
+}
+h1,
+h2 {
+  font-size: bold;
+  font-weight: 700;
+  color: #000000;
+}
+p {
+  color: #2c2c2c;
+  font-weight: 400;
+  font-size: medium;
+  text-align: left;
+}
+.main-box p,
+a {
+  color: #575757;
+}
